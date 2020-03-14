@@ -1,8 +1,3 @@
-/*
-USER: theoakt1
-TASK: milk2
-LANG: C++
-*/
 #include <iostream>
 #include <fstream>
 #include <string>

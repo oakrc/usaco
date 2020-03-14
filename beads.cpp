@@ -1,8 +1,3 @@
-/*
-ID: theoakt1
-TASK: beads
-LANG: C++
-*/
 #include <fstream>
 #include <iostream>
 #include <string>
