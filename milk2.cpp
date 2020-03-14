@@ -30,7 +30,7 @@ struct intv{
     }
 } c;
 bool comp(const intv& lhs, const intv& rhs) {
-    return lhs.b <= rhs.b; // e set to > to save a few assignments
+    return lhs.b <= rhs.b;
 }
 vector<intv> v; 
 stack<intv> idle; 
