@@ -1,3 +1,8 @@
+/*
+ID: theoakt1
+TASK: transform
+LANG: C++
+*/
 #include <iostream>
 #include <vector>
 #include <fstream>
