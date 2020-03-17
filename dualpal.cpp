@@ -14,7 +14,7 @@ unsigned S = 0;
 unsigned b = 0;
 unsigned n = 1; // current number
 unsigned d = 0; // digit
-unsigned r = 0; // reversed digit
+unsigned r = 0; // reversed n in base b
 unsigned t = 0; // temp
 unsigned c = 0; // palindrome count
 int main() {

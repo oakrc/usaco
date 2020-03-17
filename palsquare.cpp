@@ -13,7 +13,7 @@ unsigned B = 0; // given base
 unsigned n = 1; // current number
 unsigned s = 0; // squared
 unsigned d = 0; // digit
-unsigned r = 0; // reversed digit
+unsigned r = 0; // reversed n
 unsigned t = 0; // temp
 string itoa(unsigned num) {
     string ret = "";
