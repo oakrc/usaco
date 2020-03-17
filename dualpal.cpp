@@ -17,8 +17,7 @@ unsigned d = 0; // digit
 unsigned r = 0; // reversed digit
 unsigned t = 0; // temp
 unsigned c = 0; // palindrome count
-int main()
-{
+int main() {
     ifs >> N >> S;
     for (n = S + 1; n <= S + N; n++) {
         c = 0;

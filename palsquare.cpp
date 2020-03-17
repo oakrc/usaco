@@ -25,8 +25,7 @@ string itoa(unsigned num) {
     }
     return ret;
 }
-int main()
-{
+int main() {
     ifs >> B;
     for (; n <= 300; n++) {
         r = 0;
