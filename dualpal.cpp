@@ -1,8 +1,3 @@
-/*
-ID: theoakt1
-TASK: dualpal
-LANG: C++
-*/
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -16,10 +11,11 @@ unsigned n = 1; // current number
 unsigned d = 0; // digit
 unsigned r = 0; // reversed n in base b
 unsigned t = 0; // temp
-unsigned c = 0; // palindrome count
+unsigned c = 0; // palindrome count per base
+unsigned p = 0; // palindrome count total
 int main() {
     ifs >> N >> S;
-    for (n = S + 1; n <= S + N; n++) {
+    for (n = S + 1; p < N; n++) {
         c = 0;
         for (b = 2; b <= 10; b++) {
             r = 0;
@@ -32,6 +28,7 @@ int main() {
             if (r == n) {
                 c++;
                 if (c == 2) {
+                    p++;
                     ofs << n << '\n';
                     goto next;
                 }
