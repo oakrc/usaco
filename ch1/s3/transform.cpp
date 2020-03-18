@@ -4,7 +4,7 @@ TASK: transform
 LANG: C++
 */
 
-// from https://jvonk.github.io/usaco/2018/09/29/transform.html
+// from USACO analysis
 // I was too lazy
 
 #include <cstdio>
