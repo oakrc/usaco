@@ -3,7 +3,6 @@ ID: theoakt1
 TASK: milk
 LANG: C++
 */
-#include <iostream>
 #include <fstream>
 #include <vector>
 #include <algorithm>
